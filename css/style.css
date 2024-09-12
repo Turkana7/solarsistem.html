@@ -1,0 +1,249 @@
+body{
+   margin: 0;
+   padding: 0; 
+}
+#main{
+    width: 100%;
+    min-height: 900px;
+    background-image: url(../img/pxfuel.com_0bd8d360-b02b-4112-aa70-aa43e713b32e.webp);
+    float: left;
+}
+.round1{
+    width: 545px;
+    min-height: 545px;
+    background-color: none;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: relative;
+    left: 400px;
+    top: 50px;
+    animation-name: ring;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.pluto{
+    width: 40px;
+    min-height: 40px;
+    border-radius: 50%;
+    background-image: url(../img/pluto.jpg);
+    background-repeat: no-repeat;
+   background-size: contain;
+    position: absolute;
+    top: 70px;
+    left: 40px;
+}
+.round2{
+    width: 455px;
+    min-height: 455px;
+    background-color: none;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: relative;
+    left: 442px;
+    margin-top:-447px;
+    animation-name: ring;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.neptune{
+    width: 80px;
+    min-height: 80px;
+    background-image: url(../img/neptune.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    position: absolute;
+    top: 105px;
+    left: -19px;
+}
+.round3{
+    width: 400px;
+    min-height: 400px;
+    background-color: none;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: relative;
+    left: 473px;
+    margin-top:-441px;
+    animation-name: ring;
+    animation-duration: 20s;
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear; 
+}
+.uranus{
+    width: 62px;
+    min-height: 60px;
+    background-image: url(../img/uranus.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    position: absolute;
+    top: 68px;
+}
+.round4{
+    width: 370px;
+    min-height: 370px;
+    background-color: none;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: relative;
+    left: 485px;
+    margin-top:-385px;
+    animation-name: ring;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear;
+}
+.saturn{
+    width: 50px;
+    min-height: 50px;
+    background-image: url(../img/saturn.jpeg);
+    border-radius: 50%;
+    position: absolute;
+    background-size: contain;
+    top: 78px;
+    
+}
+.round5{
+    width: 355px;
+    min-height: 355px;
+    background-color: none;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: relative;
+    left: 492px;
+    margin-top:-365px;
+    animation-name: ring;  
+    animation-duration: 11s;
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear;
+    animation-name: ring;
+}
+.jupiter{
+    width: 90px;
+    min-height: 90px;
+    background-image: url(../img/Jupiter.jpg);
+    border-radius: 50%;
+    position: absolute;
+    background-size: contain;
+    margin-top: 30px;
+}
+.round6{
+    width: 325px;
+    min-height: 325px;
+    background-color: none;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 50%;
+    left: 505px;
+    margin-top:-350px;
+    animation-name: ring;  
+    animation-duration: 28s;
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear;
+    
+}
+.mars{
+    width: 40px;
+    min-height: 40px;
+    background-image: url(../img/mars.jpg);
+    border-radius: 50%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 67px;
+}
+.round7{
+    width: 300px;
+    min-height: 300px;
+    background-color: none;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 50%;
+    left: 515px;
+    margin-top:-318px;
+    animation-name: ring;  
+    animation-duration: 15s;
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear;
+    
+}
+.earth{
+    width: 55px;
+    min-height: 55px;
+    background-image: url(../img/Earth_from_Space.jpg);
+    border-radius: 50%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left:50px ;
+}
+.round8{
+    width: 256px;
+    min-height: 256px;
+    background-color: none;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 50%;
+    left: 541px;
+    top: -273px;
+    animation-name: ring;  
+    animation-duration: 40s;
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear;
+}
+.venus{
+    width: 40px;
+    min-height: 40px;
+    background-image: url(../img/images.jpeg);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 50px;
+}
+.round9{
+    width: 170px;
+    min-height: 170px;
+    background-color: none;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 50%;
+    top: -480px;
+    left: 580px;
+    animation-name: ring;  
+    animation-duration: 25s;
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear;
+}
+.merkury{
+    width: 30px;
+    min-height: 30px;
+    background-image: url(../img/mercury-1a.jpg);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 23px;
+}
+.sun{
+    width: 130px;
+    min-height: 130px;
+    background-image: url(../img/sun.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: relative;
+    left: 601px;
+    top: -625px;
+}
+@keyframes ring {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
